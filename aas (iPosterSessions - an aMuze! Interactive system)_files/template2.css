@@ -1,0 +1,59 @@
+﻿/* IMPORTANT: Style settings in this file will affect all modes (edit, presentation, print, etc.) */
+
+body {
+    /*    background-color: rgba(22,37,52,1) !important;*/
+    font-family: 'ITCFranklinGothicW02-Bk 812924','HelveticaNeueW01-55Roma', Arial, sans-serif;
+}
+
+.redactor-open {
+    overflow: hidden;
+}
+
+.visual strong {
+    font-family: 'ITCFranklinGothicW02-Md 812972','HelveticaNeueW01-55Roma', Arial, sans-serif;
+}
+
+#wrapper h1,
+#wrapper h2,
+#wrapper h3,
+#wrapper h4 {
+    font-family: 'ITCFranklinGothicW02-Md 812972','HelveticaNeueW01-55Roma', Arial, sans-serif;
+}
+
+#main h2 {
+    font-family: 'ITCFranklinGothicW02-Bk 812933','HelveticaNeueW01-55Roma', Arial, sans-serif;
+}
+
+/*Christer: changed position of popup textbox to reveal header, only in kiosk mode*/
+/*.kiosk.template2 #popuptextbox {
+    top: 10.3vw !important;
+    right: 2vw !important;
+    height: 44.9vw !important;
+    width: 45.4vw !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.template2 #popuptextbox {
+    display: flex;
+    flex-direction: column;
+    right: 2vw !important;
+    width: 45.4vw !important;
+}
+
+.texttitle {
+    min-height: inherit !important;
+    flex: 0;
+}
+
+.template2 #popuptextbox .content {
+    height: auto !important;
+    max-height: 88% !important;
+    flex: auto;
+    margin-bottom: 1vw;
+}
+
+.kiosk #popuptextboxback {
+    top: 10.3vw !important;
+}
+*/
